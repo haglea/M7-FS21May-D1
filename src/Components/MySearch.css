@@ -1,0 +1,12 @@
+/* #root > div > form > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#root > div > form > div > div.col-sm-3,
+#root > div > form > div > div.col {
+    display: flex;
+    align-items: center;
+}
+ */
