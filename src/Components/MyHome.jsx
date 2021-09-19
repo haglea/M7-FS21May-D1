@@ -1,12 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import MyJumbotron from './MyJumbotron'
-import MySearch from './MySearch'
+import SearchResult from './SearchResult'
 
 const MyHome = ()  => (
 
     <> 
       <MyJumbotron />
-      <MySearch />
+      <SearchResult />
     </>
 
   );

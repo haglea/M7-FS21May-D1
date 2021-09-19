@@ -10,8 +10,10 @@ function App() {
     <Router>
     <Container>
       <MyNavbar />
-      <Route path="/" exact component={MyHome} />
-      <Route path="/company-detail" exact component={CompanyDetail} />
+
+        <Route exact path="/" component={MyHome} />
+        <Route exact path='/:companyName' component={CompanyDetail} />
+
     </Container>
     </Router>
   );
